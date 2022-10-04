@@ -12,18 +12,18 @@ on:
 env:
   SAM_TEMPLATE: template.yaml
   TESTING_STACK_NAME: sam-app
-  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-test-pip-PipelineExecutionRole-1SCHNVWY7WQCO
-  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-test-CloudFormationExecutionR-1QLXMGH9GTUOY
-  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-test-pipeline-artifactsbucket-dzzb1r3uus7
+  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-beta-pip-PipelineExecutionRole-1F28J6KL9HEWB
+  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-beta-CloudFormationExecutionR-1VOFYYSM8TWNM
+  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-beta-pipeline-artifactsbucket-17lw9k49l3h5
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
   # TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   TESTING_REGION: us-east-1
   PROD_STACK_NAME: sam-app
-  PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-SOKZ48ZZ2R2D
-  PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-14CIT0ZMA28Q3
-  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-prod-pipeline-artifactsbucket-ns32r36ut6qs
+  PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-gamma-pi-PipelineExecutionRole-17NE4GXX9KAQP
+  PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::088535341315:role/aws-sam-cli-managed-gamma-CloudFormationExecutionR-OPMULAYE1STN
+  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-gamma-pipelin-artifactsbucket-s5637127skq6
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
   # prod "sam package" and "sam deploy" commands.
